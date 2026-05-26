@@ -1,4 +1,4 @@
-package Calculadora.conversion.bases;
+package Calculadora.frontend;
 
 import javax.swing.*;
 import java.awt.*;
@@ -19,7 +19,7 @@ public class VistaCalculadora extends JFrame {
         setLayout(new GridLayout(5, 2, 10, 10));
 
         // Bases típicas: Binario(2), Octal(8), Decimal(10), Hexadecimal(16)
-        Integer[] bases = { 2, 10, 16 };
+        Integer[] bases = { 2, 8, 10, 16 };
 
         add(new JLabel("  Base Origen:"));
         comboBaseOrigen = new JComboBox<>(bases);

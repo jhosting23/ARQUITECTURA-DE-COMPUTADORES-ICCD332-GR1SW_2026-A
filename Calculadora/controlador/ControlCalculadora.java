@@ -1,5 +1,7 @@
-package Calculadora.conversion.bases;
+package Calculadora.controlador;
 
+import Calculadora.backend.ConvertidorBase;
+import Calculadora.frontend.VistaCalculadora;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 

@@ -1,6 +1,6 @@
-import Calculadora.conversion.bases.ControlCalculadora;
-import Calculadora.conversion.bases.ConvertidorBase;
-import Calculadora.conversion.bases.VistaCalculadora;
+import Calculadora.backend.ConvertidorBase;
+import Calculadora.frontend.VistaCalculadora;
+import Calculadora.controlador.ControlCalculadora;
 
 public class APP {
     public static void main(String[] args) {
